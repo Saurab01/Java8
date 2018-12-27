@@ -94,7 +94,6 @@ public class LambdaBasics {
         BiFunction<String, String,String> bi = (x, y) -> {
             return x + y;
         };
-
         System.out.println(bi.apply("Bifunction", " results"));
     }
 
